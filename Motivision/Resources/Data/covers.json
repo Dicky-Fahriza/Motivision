@@ -1,0 +1,26 @@
+[
+  {
+    "id" : 1,
+    "name" : "cover-kerja"
+  },
+  {
+    "id" : 2,
+    "name" : "cover-pernikahan"
+  },
+  {
+    "id" : 3,
+    "name" : "cover-rumah"
+  },
+  {
+    "id" : 4,
+    "name" : "cover-keturunan"
+  },
+  {
+    "id" : 5,
+    "name" : "cover-mobil"
+  },
+  {
+    "id" : 6,
+    "name" : "cover-haji"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "id" : "work",
+    "name" : "Work",
+    "headline" : "TWork refers to the activities or tasks performed by an individual in order to create value or achieve certain outcomes.",
+    "image" : "cover-kerja",
+  },
+  {
+    "id" : "marry",
+    "name" : "get married",
+    "headline" : "Marry is a lifelong commitment, legal union between two individuals, celebration of love and unity, cultural tradition and personal choice: ",
+    "image" : "cover-pernikahan",
+  },
+  {
+    "id" : "rumah",
+    "name" : "Rumah",
+    "headline" : "Elephants are the largest land mammals on earth and have distinctly massive bodies, large ears, and long trunks. They use their trunks to pick up objects, trumpet warnings, greet other elephants, or suck up water for drinking or bathing, among other uses.",
+    "image" : "cover-rumah",
+  },
+  {
+    "id" : "keturunan",
+    "name" : "Keturunan",
+    "headline" : "Rhinoceros any of five or six species of giant horn-bearing herbivores that include some of the largest living land mammals. Only African and Asian elephants are taller at the shoulder than the two largest rhinoceros species.",
+    "image" : "cover-keturunan",
+  },
+  {
+    "id" : "mobil",
+    "name" : "Mobil",
+    "headline" : "The cheetah is the fastest land animal in the world, reaching speeds of up to 70 miles per hour. They can accelerate from 0 to 68 miles per hour in just three seconds.",
+    "image" : "cover-mobil",
+  },
+  {
+    "id" : "haji",
+    "name" : "Haji",
+    "headline" : "At an average height of around 5 m (16-18 ft.), the giraffe is the tallest land animal in the world. Giraffes live primarily in savanna areas in the sub-Saharan region of Africa.",
+    "image" : "cover-haji",
+   
+  }
+]

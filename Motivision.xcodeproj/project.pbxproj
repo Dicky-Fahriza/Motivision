@@ -8,17 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		522B7D2D2BE33DEE00C54E4F /* MotivisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B7D2C2BE33DEE00C54E4F /* MotivisionApp.swift */; };
-		522B7D2F2BE33DEE00C54E4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B7D2E2BE33DEE00C54E4F /* ContentView.swift */; };
+		522B7D2F2BE33DEE00C54E4F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B7D2E2BE33DEE00C54E4F /* MainView.swift */; };
 		522B7D312BE33DEF00C54E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522B7D302BE33DEF00C54E4F /* Assets.xcassets */; };
 		522B7D342BE33DEF00C54E4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522B7D332BE33DEF00C54E4F /* Preview Assets.xcassets */; };
+		522B7D402BE33E9300C54E4F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B7D3F2BE33E9300C54E4F /* HomeView.swift */; };
+		522B7D422BE33EAF00C54E4F /* MotivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B7D412BE33EAF00C54E4F /* MotivationView.swift */; };
+		522B7D442BE33F4E00C54E4F /* Goals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B7D432BE33F4E00C54E4F /* Goals.swift */; };
+		522B7D462BE3404300C54E4F /* MotivationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B7D452BE3404300C54E4F /* MotivationVM.swift */; };
+		522B7D492BE3408600C54E4F /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 522B7D482BE3408600C54E4F /* GoogleGenerativeAI */; };
+		522B7D4B2BE3495500C54E4F /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B7D4A2BE3495500C54E4F /* SettingView.swift */; };
+		522B7D4E2BE36B7A00C54E4F /* TargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B7D4D2BE36B7A00C54E4F /* TargetView.swift */; };
+		522B7D512BE36C3B00C54E4F /* TargetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B7D502BE36C3B00C54E4F /* TargetModel.swift */; };
+		522B7D542BE36E9F00C54E4F /* target.json in Resources */ = {isa = PBXBuildFile; fileRef = 522B7D532BE36E9F00C54E4F /* target.json */; };
+		522B7D572BE3709000C54E4F /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B7D562BE3709000C54E4F /* Bundle+Ext.swift */; };
+		522B7D592BE3712E00C54E4F /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 522B7D582BE3712E00C54E4F /* covers.json */; };
+		522B7D5B2BE372A800C54E4F /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B7D5A2BE372A800C54E4F /* CoverImageView.swift */; };
+		522B7D5D2BE372E100C54E4F /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B7D5C2BE372E100C54E4F /* CoverImageModel.swift */; };
+		522B7D612BE3742D00C54E4F /* TargetListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B7D602BE3742D00C54E4F /* TargetListItemView.swift */; };
+		522B7D632BE375D000C54E4F /* TargetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B7D622BE375D000C54E4F /* TargetDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		522B7D292BE33DEE00C54E4F /* Motivision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Motivision.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522B7D2C2BE33DEE00C54E4F /* MotivisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivisionApp.swift; sourceTree = "<group>"; };
-		522B7D2E2BE33DEE00C54E4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		522B7D2E2BE33DEE00C54E4F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		522B7D302BE33DEF00C54E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522B7D332BE33DEF00C54E4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		522B7D3F2BE33E9300C54E4F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		522B7D412BE33EAF00C54E4F /* MotivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationView.swift; sourceTree = "<group>"; };
+		522B7D432BE33F4E00C54E4F /* Goals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goals.swift; sourceTree = "<group>"; };
+		522B7D452BE3404300C54E4F /* MotivationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationVM.swift; sourceTree = "<group>"; };
+		522B7D4A2BE3495500C54E4F /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		522B7D4D2BE36B7A00C54E4F /* TargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetView.swift; sourceTree = "<group>"; };
+		522B7D502BE36C3B00C54E4F /* TargetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetModel.swift; sourceTree = "<group>"; };
+		522B7D532BE36E9F00C54E4F /* target.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = target.json; sourceTree = "<group>"; };
+		522B7D562BE3709000C54E4F /* Bundle+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Ext.swift"; sourceTree = "<group>"; };
+		522B7D582BE3712E00C54E4F /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		522B7D5A2BE372A800C54E4F /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		522B7D5C2BE372E100C54E4F /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		522B7D602BE3742D00C54E4F /* TargetListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetListItemView.swift; sourceTree = "<group>"; };
+		522B7D622BE375D000C54E4F /* TargetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522B7D492BE3408600C54E4F /* GoogleGenerativeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +81,13 @@
 		522B7D2B2BE33DEE00C54E4F /* Motivision */ = {
 			isa = PBXGroup;
 			children = (
-				522B7D2C2BE33DEE00C54E4F /* MotivisionApp.swift */,
-				522B7D2E2BE33DEE00C54E4F /* ContentView.swift */,
-				522B7D302BE33DEF00C54E4F /* Assets.xcassets */,
+				522B7D5E2BE373CB00C54E4F /* Screen */,
+				522B7D552BE3706E00C54E4F /* Extensions */,
+				522B7D4F2BE36BF000C54E4F /* Modules */,
+				522B7D4C2BE3513200C54E4F /* Main */,
+				522B7D3C2BE33E0600C54E4F /* App */,
+				522B7D3B2BE33DFF00C54E4F /* View */,
+				522B7D3A2BE33DF500C54E4F /* Resources */,
 				522B7D322BE33DEF00C54E4F /* Preview Content */,
 			);
 			path = Motivision;
@@ -65,6 +99,104 @@
 				522B7D332BE33DEF00C54E4F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		522B7D3A2BE33DF500C54E4F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				522B7D522BE36D2800C54E4F /* Data */,
+				522B7D302BE33DEF00C54E4F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		522B7D3B2BE33DFF00C54E4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		522B7D3C2BE33E0600C54E4F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				522B7D2C2BE33DEE00C54E4F /* MotivisionApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		522B7D3D2BE33E1700C54E4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				522B7D432BE33F4E00C54E4F /* Goals.swift */,
+				522B7D502BE36C3B00C54E4F /* TargetModel.swift */,
+				522B7D5C2BE372E100C54E4F /* CoverImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		522B7D3E2BE33E1F00C54E4F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				522B7D452BE3404300C54E4F /* MotivationVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		522B7D4C2BE3513200C54E4F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				522B7D2E2BE33DEE00C54E4F /* MainView.swift */,
+				522B7D3F2BE33E9300C54E4F /* HomeView.swift */,
+				522B7D412BE33EAF00C54E4F /* MotivationView.swift */,
+				522B7D4A2BE3495500C54E4F /* SettingView.swift */,
+				522B7D4D2BE36B7A00C54E4F /* TargetView.swift */,
+				522B7D5A2BE372A800C54E4F /* CoverImageView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		522B7D4F2BE36BF000C54E4F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				522B7D3D2BE33E1700C54E4F /* Model */,
+				522B7D3E2BE33E1F00C54E4F /* ViewModel */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		522B7D522BE36D2800C54E4F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				522B7D582BE3712E00C54E4F /* covers.json */,
+				522B7D532BE36E9F00C54E4F /* target.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		522B7D552BE3706E00C54E4F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				522B7D562BE3709000C54E4F /* Bundle+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		522B7D5E2BE373CB00C54E4F /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				522B7D5F2BE373DF00C54E4F /* Target */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		522B7D5F2BE373DF00C54E4F /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				522B7D602BE3742D00C54E4F /* TargetListItemView.swift */,
+				522B7D622BE375D000C54E4F /* TargetDetailView.swift */,
+			);
+			path = Target;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +215,9 @@
 			dependencies = (
 			);
 			name = Motivision;
+			packageProductDependencies = (
+				522B7D482BE3408600C54E4F /* GoogleGenerativeAI */,
+			);
 			productName = Motivision;
 			productReference = 522B7D292BE33DEE00C54E4F /* Motivision.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +246,9 @@
 				Base,
 			);
 			mainGroup = 522B7D202BE33DEE00C54E4F;
+			packageReferences = (
+				522B7D472BE3408600C54E4F /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
 			productRefGroup = 522B7D2A2BE33DEE00C54E4F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				522B7D342BE33DEF00C54E4F /* Preview Assets.xcassets in Resources */,
+				522B7D592BE3712E00C54E4F /* covers.json in Resources */,
+				522B7D542BE36E9F00C54E4F /* target.json in Resources */,
 				522B7D312BE33DEF00C54E4F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +277,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				522B7D2F2BE33DEE00C54E4F /* ContentView.swift in Sources */,
+				522B7D462BE3404300C54E4F /* MotivationVM.swift in Sources */,
+				522B7D442BE33F4E00C54E4F /* Goals.swift in Sources */,
+				522B7D422BE33EAF00C54E4F /* MotivationView.swift in Sources */,
+				522B7D4B2BE3495500C54E4F /* SettingView.swift in Sources */,
+				522B7D402BE33E9300C54E4F /* HomeView.swift in Sources */,
+				522B7D4E2BE36B7A00C54E4F /* TargetView.swift in Sources */,
+				522B7D5B2BE372A800C54E4F /* CoverImageView.swift in Sources */,
+				522B7D5D2BE372E100C54E4F /* CoverImageModel.swift in Sources */,
+				522B7D632BE375D000C54E4F /* TargetDetailView.swift in Sources */,
+				522B7D2F2BE33DEE00C54E4F /* MainView.swift in Sources */,
+				522B7D572BE3709000C54E4F /* Bundle+Ext.swift in Sources */,
+				522B7D612BE3742D00C54E4F /* TargetListItemView.swift in Sources */,
+				522B7D512BE36C3B00C54E4F /* TargetModel.swift in Sources */,
 				522B7D2D2BE33DEE00C54E4F /* MotivisionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +494,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		522B7D472BE3408600C54E4F /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google-gemini/generative-ai-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		522B7D482BE3408600C54E4F /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 522B7D472BE3408600C54E4F /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 522B7D212BE33DEE00C54E4F /* Project object */;
 }
