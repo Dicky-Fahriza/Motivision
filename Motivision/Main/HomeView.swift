@@ -17,7 +17,7 @@ struct HomeView: View {
                     TextEditor(text: $goalsKey)
                         .frame(height: 200)
                         .font(.system(.headline, design: .rounded))
-                        .foregroundColor(.blue)
+                        .foregroundColor(.primary)
                 }
             }
             .navigationTitle("Target Detail")

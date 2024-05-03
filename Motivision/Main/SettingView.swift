@@ -24,8 +24,10 @@ struct SettingView: View {
                         }
                 } header: {
                     Text("API KEYS")
+                        .foregroundStyle(.accent)
                 } footer: {
                     Text("Please input your API Key above.")
+                        .foregroundStyle(.accent)
                 }
                 
                 Section {
@@ -34,12 +36,21 @@ struct SettingView: View {
                     
                 } header: {
                     Text("DONT'T HAVE API KEYS")
+                        .foregroundStyle(.accent)
                 } footer: {
                     Text("Sign up to get your own api key via link above")
+                        .foregroundStyle(.accent)
                 }
+                Image(.gambar)
+                    .resizable()
+                    .frame(width: 300, height: 300)
+                
+               
+                
+                 
 
             }
-            .navigationTitle("Configuration")
+            .navigationTitle("Settings")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 // MARK: - SAVE KEY

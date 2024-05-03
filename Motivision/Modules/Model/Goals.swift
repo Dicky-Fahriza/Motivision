@@ -24,3 +24,18 @@ enum Motivator: String, CaseIterable, Identifiable {
     var id: Motivator { self }
 }
 
+struct Place: Codable, Hashable {
+    var quote: String
+    var author: String
+}
+
+
+
+extension Place {
+    static let dummyData: [Place] = [
+        Place(
+            quote: "Kerja keras dan doa adalah kunci keberhasilan", 
+            author: "Soekarno"
+        )
+    ]
+}

@@ -23,7 +23,7 @@ struct MainView: View {
                     Label("Settings", systemImage: "gear")
                 }
         }
-        .tint(.primary)
+        .tint(.accent)
     }
 }
 

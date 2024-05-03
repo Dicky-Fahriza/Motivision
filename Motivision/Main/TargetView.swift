@@ -63,34 +63,7 @@ struct  TargetView: View {
                 }
             }
             .navigationTitle("Target")
-//            .toolbar {
-//                ToolbarItem(placement: .topBarTrailing) {
-//                    HStack(spacing: 16) {
-//                        // MARK: - LIST
-//                        Button {
-//                            print("List view is activited")
-//                            isGridViewActive = false
-//                            heptics.impactOccurred()
-//                        } label: {
-//                            Image(systemName: "square.fill.text.grid.1x2")
-//                                .font(.title2)
-//                                .foregroundStyle(isGridViewActive ? .primary : Color.blue)
-//                        }
-//                        
-//                        // MARK: - GRID
-//                        Button {
-//                            print("Grid view is activited")
-//                            isGridViewActive = true
-//                            gridSwitch()
-//                        } label: {
-//                            Image(systemName: toolbarIcon)
-//                                .font(.title2)
-//                                .foregroundStyle(isGridViewActive ? Color.blue : .primary)
-//                        }
-//                        
-//                    }
-//                }
-//            }
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }

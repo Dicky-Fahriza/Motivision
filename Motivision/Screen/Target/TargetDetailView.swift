@@ -18,34 +18,38 @@ struct TargetDetailView: View {
                 .scaledToFit()
             
             // TITLE
-            Text(target.name.uppercased())
-                .font(.largeTitle)
-                .fontWeight(.heavy)
-                .background(
-                    Color.blue
-                        .frame(height: 6)
-                        .offset(y: 24)
+            
+                Text(target.name.uppercased())
+                    .font(.largeTitle)
+                    .fontWeight(.heavy)
+                    .foregroundStyle(.accent)
+                    .background(
+                        Color.black
+                            .frame(height: 6)
+                            .offset(y: 24)
                 )
             
+            
             // HEADLINE
-//            Text(target.headline)
-//                .font(.headline)
-//                .foregroundStyle(.blue)
-//                .padding()
-//            
-//            .padding(.horizontal)
+            
+                Text(target.headline)
+                    .font(.headline)
+                    .foregroundStyle(.accent)
+                    .padding()
+                
+                .padding(.horizontal, 8)
+            
+            
+                HomeView()
+            
             
          
-                            
-        
-
+            
     
         }
-
-        HomeView()
         
         
-        .navigationTitle("Learn about \(target.name)")
+        .navigationTitle(" \(target.name)")
         .navigationBarTitleDisplayMode(.inline)
     }
     
