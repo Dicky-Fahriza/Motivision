@@ -5,7 +5,7 @@ Practice projects create Motivision program. Set goals and motivision to achieve
 
 ## Screen Shoot
 
-![App Screenshot](https://res.cloudinary.com/dyhiieqlt/image/upload/v1714925069/Screenshot_2024-05-05_at_23.02.06_tm9koo.png)
+![App Screenshot](https://res.cloudinary.com/dyhiieqlt/image/upload/v1714927685/Screenshot_2024-05-05_at_23.09.15_rn4bka.png)
 ## Authors
 
 - [@dickyfahriza](https://www.github.com/dicky-fahriza)
